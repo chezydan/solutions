@@ -1,0 +1,126 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding:0;
+
+}
+
+html, body {
+  height: 100%; 
+}
+h1,h3,p{
+  padding:0.5em;
+  text-align: center;
+  
+}
+
+
+:root{
+  --silvery: #f3f4BE;
+  --darker: #050523;
+}
+
+
+
+.gr-deepsea{
+  background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+}
+.title1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:3rem;
+}
+.tahoma{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:1em;
+}
+.centered{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.app-container{
+  height:100vh;
+  color:var(--silvery);
+  
+
+}
+
+
+.nav {
+  background-color: var(--darker);
+  height: auto;
+  padding:1.3em;
+ 
+
+}
+ 
+.nav *{color:var(--silvery);
+text-decoration: none;
+margin:0.5em;}
+
+.link:hover{
+  color:aqua;
+  transform: translate(20px,10px);
+}
+
+
+.home-integrate{
+  position:relative;
+  background-color: darkblue;
+  height:40vh;
+align-content: center;
+background-image:url(
+"https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+color:var(--silvery);
+}
+
+.home-develop{
+  color :dark-green;
+  height:50vh;
+  background-color: white;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color:darkgreen;
+  position:relative;
+
+   
+}
+.home-develop-c{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+ 
+  
+
+}
+
+
+.spread{
+  height:100vh;
+background-image:url("https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1104&q=80");
+background-size: cover;
+background-position: center;
+display: flex;
+position: relative;
+}
+/*FILTER    the background with  color   */
+.spread:before {
+  content: "";
+  background: #003311;
+  width: 100%;
+  opacity: .7;
+  transition: .5s ease;
+  }
+  
+.spread *{
+  position:absolute;
+}
