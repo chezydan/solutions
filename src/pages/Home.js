@@ -1,14 +1,16 @@
+
 import React from 'react'
 import {FaEdit } from 'react-icons/fa'
 
 function Home() {
   return (    <div>
 
-<h3> home</h3>
-<div>{<FaEdit/>}</div>
 
+<div>{<FaEdit/>}</div>
 <div className='home-integrate'>
-  <div className='centered'>
+ <div className='centered'>
+
+    
   <h1>   Integrate your Skills</h1>
   <p> learn to achieve your tasks</p>
   </div>
