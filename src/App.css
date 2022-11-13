@@ -120,6 +120,7 @@ margin:0;
 
 .logo1{
   background-size: 10px 30px;
+  position: absolute;
 }
 .float-right{float:right;
 
@@ -175,7 +176,7 @@ color:var(--silvery);
 
 
 .spread{
-  height:100vh;
+  height:80vh;
 background-image:url("https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1104&q=80");
 background-size: cover;
 background-position: center;
@@ -278,7 +279,51 @@ position: relative;
    /*   position:absolute;*/
       color:var(--darker);
     }
+
+
+  .projects-container{
+height:400px;
+
+    display:grid;
+    grid-template-columns: repeat( auto-fit, minmax(500px,1fr) );
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/75/Scratch.logo.S.png");
+     gap:2em;
+    background-size:cover;
+    background-color: silver;
+       position:relative;
+     
+    overflow: scroll;
+    padding:1em;
+  }
+  .projects-container:before{
+    height:1000px;
+    content:"";
+    position: absolute;
+    opacity:0.3;
+    background:blue;
+
+    width: 100vw;
+    opacity: .2;
+    transition: .5s ease;
+   
   
+  }
+
+  .projects-container{
+   
+  }
+.project-cart{
+
+  background-color:orange;
+  
+  color:#220000;
+  z-index:1;
+}
+.project-cart a{
+  color : brown;
+}
+
+ /* FOR DEV -------------------*/ 
 .fordev-container{
  display:grid;
  grid-template-columns: repeat( auto-fit, minmax(500px,1fr));

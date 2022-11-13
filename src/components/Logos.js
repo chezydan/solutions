@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Logos() {
-  return (    <div>
+  return (    <div className='float-right'>
 
 <svg height="100" width="150" className='float-right  scale'><g className='logo1'>
   <rect x="75" y="70" width="40" height="20"

@@ -52,6 +52,27 @@ export const helpers=[
     desc:"props and states in different components",
     more:{test:"do1", test2:"da1"}
     },
+    {id:9,
+        main:"MERN Basics",
+    url:"https://docs.google.com/document/d/1h95oAowzz4uPsirNa3E7Dfw7cC8CxmNqfcbJWjqLzPI/edit?usp=share_link" ,
+    topics:"",
+    desc:"MongoDB, express, React, NodeJS",
+    more:{test:"do1", test2:"da1"}
+    },
+    {id:10,
+        main:"Chart in 3D",
+    url:"https://docs.google.com/document/d/1X-wFD696_LJJr9DP8DZyO_IAoaW4UReXnGWN7zWkyjI/edit?usp=share_link" ,
+    topics:"",
+    desc:"3D",
+    more:{test:"do1", test2:"da1"}
+    },
+    {id:11,
+        main:"Use Context Hook",
+    url:"https://docs.google.com/document/d/12Ghm_ZRgl4BOm71LuEc4c-3o9puATavN1cxZlnJwAM0/edit?usp=share_link" ,
+    topics:"",
+    desc:"",
+    more:{test:"do1", test2:"da1"}
+    },
 ]
 
 /*
